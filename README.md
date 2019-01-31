@@ -32,7 +32,7 @@ To make our theme the default theme, we need to go to SysConfig Core and change 
 If we want the theme default theme setting to override user's preferences, then we need to set our default theme on a host level *DefaultTheme::HostBased*.
 
 ## Other Installation
-/opt/otrs/bin/otrs.Console.pl Maint::Config::Rebuild
-/opt/otrs/bin/otrs.Console.pl Maint::Cache::Delete
-/opt/otrs/bin/otrs.Console.pl Maint::Loader::CacheCleanup
-/opt/otrs/bin/otrs.Console.pl Maint::Loader::CacheGenerate
+/opt/otrs/bin/otrs.Console.pl Maint::Config::Rebuild  
+/opt/otrs/bin/otrs.Console.pl Maint::Cache::Delete  
+/opt/otrs/bin/otrs.Console.pl Maint::Loader::CacheCleanup  
+/opt/otrs/bin/otrs.Console.pl Maint::Loader::CacheGenerate  
