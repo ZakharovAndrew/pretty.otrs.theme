@@ -12,9 +12,9 @@ Edit install.sh and make sure OTRS_USER, OTRS_GROUP and OTRS_ROOT variables are 
 
 $ sudo ./install.sh
 
-***Log into OTRS system with the admin user, go to SysConfig **Core::Web** and set: 
+**Log into OTRS system with the admin user, go to SysConfig **Core::Web** and set: 
     **Loader::Agent::DefaultSelectedSkin** to PrettyOTRS
-***then go to **Frontend::Customer** and set:
+**then go to **Frontend::Customer** and set:
     **Loader::Customer::SelectedSkin** to PrettyOTRS
 
 In order to be able to use our own favicon.ico, we need to change **Frontend::ImagePath** to <OTRS_CONFIG_Frontend::WebPath>skins/Agent/PrettyOTRS/img/
