@@ -1,7 +1,6 @@
 .CallForAction, .cke_dialog_footer_buttons a.cke_dialog_ui_button {
-    padding: 11px 18px;
+    padding: 11px;
     background: #25c16f;
-    padding: 12px 30px;
     border: 0;
     border-bottom: 1px solid #bbb;
     display: inline-block;
