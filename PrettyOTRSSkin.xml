@@ -19,9 +19,9 @@
         <Value>
             <Hash>
                 <Item Key="InternalName">PrettyOTRS</Item>
-                <Item Key="VisibleName" Translatable="1">Your skin name</Item>
-                <Item Key="Description" Translatable="1">PrettyOTRS description.</Item>
-                <Item Key="HomePage">www.YourCompany.com</Item>
+                <Item Key="VisibleName" Translatable="1">Pretty OTRS Theme</Item>
+                <Item Key="Description" Translatable="1">PrettyOTRS best of the best.</Item>
+                <Item Key="HomePage">https://github.com/ZakharovAndrew/pretty.otrs.theme/</Item>
             </Hash>
         </Value>
     </Setting>
