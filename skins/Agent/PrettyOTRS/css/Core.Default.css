@@ -1,0 +1,28 @@
+.CallForAction, .cke_dialog_footer_buttons a.cke_dialog_ui_button {
+    padding: 11px 18px;
+    background: #25c16f;
+    padding: 12px 30px;
+    border: 0;
+    border-bottom: 1px solid #bbb;
+    display: inline-block;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+    border-radius: 5px;
+}
+
+.CallForAction span, .cke_dialog_footer_buttons td a.cke_dialog_ui_button span {
+    min-height: 12px;
+    padding: 0;
+    line-height: 14px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 14px;
+    border: 0;
+    border-bottom: none;
+    display: block;
+    text-shadow: none;
+    cursor: pointer;
+    position: relative;
+    font-family: Calibri;
+    text-transform: uppercase;
+}

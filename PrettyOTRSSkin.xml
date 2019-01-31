@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="2.0" init="Application">
+    <Setting Name="AgentLogoCustom###PrettyOTRS" Required="0" Valid="1">
+        <Description Translatable="1">The logo shown in the header of the agent interface for the skin "PrettyOTRS". See "AgentLogo" for further description.</Description>
+        <Navigation>Frontend::Agent</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="URL">skins/Agent/PrettyOTRS/img/logo_bg.png</Item>
+                <Item Key="StyleTop">21px</Item>
+                <Item Key="StyleRight">29px</Item>
+                <Item Key="StyleHeight">55px</Item>
+                <Item Key="StyleWidth">230px</Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="Loader::Agent::Skin###001-PrettyOTRS" Required="0" Valid="1">
+        <Description Translatable="1">PrettyOTRS description.</Description>
+        <Navigation>Frontend::Base::Loader</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="InternalName">PrettyOTRS</Item>
+                <Item Key="VisibleName" Translatable="1">Your skin name</Item>
+                <Item Key="Description" Translatable="1">PrettyOTRS description.</Item>
+                <Item Key="HomePage">www.YourCompany.com</Item>
+            </Hash>
+        </Value>
+    </Setting>
+</otrs_config>
